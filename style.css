@@ -1,0 +1,50 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.startBtn {
+    background-color:  rgb(51, 24, 146);
+    border-radius: .3rem;
+    padding: .5rem;
+    font-weight: 700;
+    font-size: 1rem;
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+    outline: none;
+}
+
+.grid {
+    position: relative;
+    width: 410px;
+    height: 310px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: .1rem solid #222;
+    padding: .1rem;
+}
+
+.grid > img {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    padding: .05rem;
+    transition: transform .8s;
+    cursor: pointer;
+}
+
+.is-flipped {
+    transform: rotateY(180deg);
+}
+
+.grid p {
+    position: absolute;
+    top: 120px;
+}

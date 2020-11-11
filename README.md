@@ -1,7 +1,7 @@
 # Memory Game
 
 #### 😀LV1😀
-<img src="image/screenshot1.png">
+<img src="img/screenshot1.png">
 
 #### 😀LV2😀
-<img src="image/screenshot2.png">
+<img src="img/screenshot2.png">

@@ -8,6 +8,17 @@ body {
     overflow: hidden;
 }
 
+a {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+a i {
+    font-size: 2rem;
+    color: #222;
+}
+
 .startBtn {
     background-color:  rgb(51, 24, 146);
     border-radius: .3rem;
